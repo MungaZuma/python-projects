@@ -21,7 +21,7 @@ def compGesi(z):
     juu = z
     jibu =""
 
-    while jibu != "s":
+    while jibu != "s":  
         if chini != juu:
             randno = random.randint(chini,juu)
         else:
