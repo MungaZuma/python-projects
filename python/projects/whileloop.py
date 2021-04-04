@@ -1,10 +1,18 @@
-tries = 1
+print("enter a between  1 and 5")
 
-while tries < 6:
-    geuss = input("enter your number: ")
+tries = 0
 
-    if tries == 3:
-        print("your tries are over")
+while tries < 3 :
+
+    geuss = int(input("enter number: "))
+
+    if geuss < 5 :
+        print(" you have picked a valid number.")
         break
 
-    tries += 1
+    else:
+        print("your tries are over")
+        tries += 1
+        
+    if tries == 3:
+        print(" you have exhausted your tries.")

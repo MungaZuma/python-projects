@@ -8,7 +8,7 @@ def play():
     
     while (player != "r") or (player != "p") or (player != "s"):
         player = input("what do you select? rock(r), paper(p) or sciscors(s): ")
-        print("please select a valid choice")
+        # print("please select a valid choice")
         
         
         if player == computer:
